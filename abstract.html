@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html class="no-js">
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Disseration Abstract</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Animate.css -->
+	<!-- <link rel="stylesheet" href="css/animate.css"> -->
+	<!-- Icomoon Icon Fonts-->
+	<!-- <link rel="stylesheet" href="css/icomoon.css"> -->
+	<!-- Bootstrap  -->
+	<!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+	</head>
+	<body>
+	
+	<div id="main">
+		<div class="tab-wrap">
+			<div class="tab-content active" data-content="1" style="top:-3em">
+				<div class="content-inner">
+					<div class="row">
+	<div id="content">
+		<h3 style="font-weight:bold">Abstract</h3>
+		<p>E-Commerce has been growing at a rapid pace in recent years.
+People are now more likely to shop online than going to physical stores.
+Digital try-on systems, as one alternative way to improve the user experience and popularize online garment shopping, has drawn attention of many researchers~\cite{giovanni2012virtual}.
+However, the technology is still far from being practical and easy-to-use to replace physical try-on, mostly due to the gap in modeling and in demonstrating garment-fitting between the digital and the real worlds.
+The estimation of the hidden parameters of the garments plays an important role in closing the gap, examples including
+accurate reconstruction of human shapes and sizes through consumer devices,
+faithful estimation of garment materials via learning and optimization,
+user-friendly recovery of dressed garments, and
+fast and realistic visual rendering of animated try-on results.
+Although previous methods have made some progresses on these under-constrained problems, learning-based approaches have shown tremendous potential in making notable impact.
+I propose to address the key open research issues above by adopting machine learning and optimization techniques.
+</p><p>
+To accurately reconstruct human shapes and sizes, I propose a learning-based {\em shape-aware} human body mesh reconstruction for both pose and shape estimation that is supervised directly on shape parameters.
+To estimate garment materials from video, I design a differentiable cloth simulation algorithm that can optimize its input variables to fit the data, thereby inferring physical parameters from observations and reaching desired control goals.
+To take advantage of joint learning and optimization, I further propose a joint estimation framework targeting human body and apparels through a close-loop iterative optimization.
+By extracting temporal information of both the body and the garment, it can also recover fabric material(s) of a garment from one single RGB video.
+To render realistic try-on results in close to real-time speed, I design a time-domain parallelization algorithm that maximizes the overall performance acceleration in distributed systems with minimal communication overhead.
+I further propose a semi-supervised learning framework to directly predict fit-accurate cloth draping on a wide range of body shapes.
+</p><p>
+In summary, my proposed learning-based frameworks focus on improving the efficiency, scalability, and capability of cloth simulation, and enable accurate hidden parameter estimation by exploiting cloth simulation for supervised learning and gradient-based feedback control.</p>
+
+	</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Easy PieChart -->
+	<script src="js/jquery.easypiechart.min.js"></script>
+	<!-- MAIN JS -->
+	<script src="js/main.js"></script>
+
+	</body>
+</html>
+

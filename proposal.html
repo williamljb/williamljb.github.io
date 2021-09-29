@@ -1,0 +1,150 @@
+
+<!DOCTYPE html>
+<html class="no-js">
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Disseration Proposal</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Animate.css -->
+	<!-- <link rel="stylesheet" href="css/animate.css"> -->
+	<!-- Icomoon Icon Fonts-->
+	<!-- <link rel="stylesheet" href="css/icomoon.css"> -->
+	<!-- Bootstrap  -->
+	<!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+	</head>
+	<body>
+	
+	<div id="main">
+		<div class="tab-wrap">
+			<div class="tab-content active" data-content="1" style="top:-3em">
+				<div class="content-inner">
+					<div class="row">
+	<div id="content">
+		<h2 style="font-weight:bold">Dynamics-Inspired Hidden Parameter Learning for Simulation-Based Virtual Try-On</h2>
+		<p>Junbang Liang<br>University of Maryland, College Park<br>March, 2020</p>
+	</div>
+	<div id="content">
+		<h3 style="font-weight:bold">Thesis Statement</h3>
+		<p style="font-style:italic">Dynamic constraints can be effectively enforced in simulation acceleration, human body estimation, and garment reconstruction for virtual try-on systems, by coupling machine learning and optimization methods with cloth simulation.</p>
+	</div>
+	<div id="content">
+		<h3 style="font-weight:bold">Abstract</h3>
+		<p>E-Commerce has been growing at a rapid pace in recent years. People are now more likely to shop online than to go to physical stores. Digital try-on systems, as one important way to improve the user experience and popularize online garment shopping, has drawn attention of many researchers. However, the technology is still far from being practical and easy-to-use to replace physical try-on, mostly due to the gap in modeling and in demonstrating garment fitting between the digital and the real worlds.</p>
+<!--
+<p>There are several reasons why customers still prefer physical try-on. First, consumers are unsure if what they buy online will fit their bodies well. Although there exist general sizing systems for individuals, its lack of consistency and standardization across different brands and garment materials can often make it difficult to sizing the clothes, especially for those with non-standard body shapes and proportion. Accurate estimation of human body shapes is the key to make digital try-on work. Second, the fabric material is usually one of the key considerations when shopping for clothes. Different fabric materials affect how the garments look and fit on a body, how customers would wear it, and whether or not they would buy it. However, the correspondences between the actual material and its digital representation are not well understood, not to mention an accurate material estimation and digital cloning from the real-world examples.</p>
+
+<p>Visual effects from the customers' view is as critical as other factors. There are two common presentations of garments: 2D image-based and 3D mesh with photo-realistic rendering. They have different advantages and drawbacks, but both need a large garment database for support. While creating a 3D garment model takes considerable labor, 2D images often suffer from the lack of variation and it is much more difficult to make customized changes. In either case, the try-on system would need a user-friendly design and manipulation backend to meet the customer's needs. Last, but not least, a fast and vivid animation of the garments in motion, along with the body movement, can considerably improve the user experience. Although it is not as critical as other factors, realistic visual rendering could effectively reduce the perceptual gap between the real-world and the virtual garments for online shopping.</p>
+-->
+<p>Although previous methods have made some progresses on these under-constrained problems, learning-based approaches have shown tremendous potential in making notable impact. We propose to address the key open research issues above by adopting machine learning and optimization techniques.  These include: (a) fast and realistic visual rendering of animated try-on results; (b) accurate reconstruction of human shapes and sizes through consumer devices; (c) Faithful estimation of garment materials via learning and optimization; and (d) user-friendly recovery of garment geometry for rapid prototyping.
+</p>
+	</div>
+
+	<div id="content">
+		<h3 style="font-weight:bold">Documents</h3>
+		<a href="http://cs.umd.edu/~liangjb/docs/proposal.pdf">Proposal Document</a><br>
+		<a href="http://cs.umd.edu/~liangjb/docs/reading_list.pdf">Reading List</a>
+	</div>
+
+    <div id="content">
+	<h3 style="font-weight:bold">Supporting Publications</h3>
+    <div id="cv-section-item">
+        <div id="cv-section-item-image"> <img src="images/NIPS2019.png" alt="" /> </div>
+        <div id="cv-section-item-content">
+                <h4 class="title"> Differentiable Cloth Simulation for Inverse Problems</h4>
+                <h4 class="authors"><b>Junbang Liang</b>, Ming C. Lin and Vladlen Koltun</h4>
+      <p>NeurIPS 2019</p>
+            <h4 class="links">[<a href="http://gamma.umd.edu/researchdirections/virtualtryon/differentiablecloth">project page</a>][<a href="http://cs.umd.edu/~liangjb/docs/NIPS2019.pdf">paper</a>][<a href="https://youtu.be/ipIM-c4lCJ0">video]</a></h4>
+          </div>
+          <!--end cv-section-item-content-->
+      </div>
+    <div id="cv-section-item">
+        <div id="cv-section-item-image"> <img src="images/ICCV2019.png" alt="" /> </div>
+        <div id="cv-section-item-content">
+                <h4 class="title"> Shape-Aware Human Pose and Shape Reconstruction Using Multi-View Images</h4>
+                <h4 class="authors"><b>Junbang Liang</b> and Ming C. Lin</h4>
+      <p>ICCV 2019</p>
+            <h4 class="links">[<a href="http://gamma.umd.edu/researchdirections/virtualtryon/humanmultiview">project page</a>][<a href="http://cs.umd.edu/~liangjb/docs/ICCV2019.pdf">paper</a>][<a href="https://youtu.be/WesHX537JIY">video</a>]</h4>
+          </div>
+          <!--end cv-section-item-content-->
+      </div>
+    <div id="cv-section-item">
+        <div id="cv-section-item-image"> <img src="images/SCA_2018.jpeg" alt="" /> </div>
+        <div id="cv-section-item-content">
+                <h4 class="title"> Time-Domain Parallelization for Accelerating Cloth Simulation</h4>
+                <h4 class="authors"><b>Junbang Liang</b> and Ming C. Lin</h4>
+      <p>Symposium on Computer Animation, 2018</p>
+            <h4 class="links">[<a href="http://gamma.cs.unc.edu/TParallelCloth/">project page</a>][<a href="http://cs.umd.edu/~liangjb/docs/SCA2018.pdf">paper</a>][<a href="videos/SCA2018.mp4">video</a>]</h4>
+          </div>
+          <!--end cv-section-item-content-->
+      </div>
+    </div>
+    <div id="content">
+    <h3 style="font-weight:bold">Additional Publications</h3>
+    <div id="cv-section-item">
+        <div id="cv-section-item-image"> <img src="images/ICCV_2017.png" alt="" /> </div>
+        <div id="cv-section-item-content">
+                <h4 class="title"> Learning-based Cloth Material Recovery from Video</h4>
+                <h4 class="authors">Shan Yang, <b>Junbang Liang</b> and Ming C. Lin</h4>
+      <p>International Conference on Computer Vision, 2017</p>
+            <h4 class="links">[<a href="http://gamma.cs.unc.edu/VideoCloth/">project page</a>][<a href="http://cs.unc.edu/~alexyang/docs/ICCV2017.pdf">paper</a>][<a href="videos/iccv_demo.mp4">video</a>]</h4>
+          </div>
+          <!--end cv-section-item-content-->
+      </div>
+        <!--end cv-section-item-->
+    <div id="cv-section-item">
+        <div id="cv-section-item-image"> <img src="images/icml2020.png" alt="" /> </div>
+        <div id="cv-section-item-content">
+                <h4 class="title"> Scalable Differentiable Physics for Learning and Control</h4>
+                <h4 class="authors">Under review</h4>
+      <p>International Conference on Machine Learning, 2020</p>
+            <h4 class="links">[<a href="http://cs.umd.edu/~liangjb/docs/icml2020.pdf">paper</a>][<a href="videos/icml2020.mp4">video</a>]</h4>
+          </div>
+          <!--end cv-section-item-content-->
+      </div>
+        <!--end cv-section-item-->
+    <div id="cv-section-item">
+        <div id="cv-section-item-image"> <img src="images/eccv2020.png" alt="" /> </div>
+        <div id="cv-section-item-content">
+                <h4 class="title"> GAN-based Garment Generation Using Sewing Pattern Images</h4>
+                <h4 class="authors">Under review</h4>
+      <p>European Conference on Computer Vision, 2020</p>
+            <h4 class="links">[<a href="http://cs.umd.edu/~liangjb/docs/eccv2020.pdf">paper</a>][<a href="videos/eccv2020.mp4">video</a>]</h4>
+          </div>
+          <!--end cv-section-item-content-->
+      </div>
+        <!--end cv-section-item-->
+  </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Easy PieChart -->
+	<script src="js/jquery.easypiechart.min.js"></script>
+	<!-- MAIN JS -->
+	<script src="js/main.js"></script>
+
+	</body>
+</html>
+
